@@ -1,0 +1,55 @@
+.reference {
+	margin:5px 0px 5px 0px;
+}
+	.reference .condition {
+		margin:5px 0px 5px 0px;
+	}
+	.reference .total {
+		margin:5px 0px 5px 0px;
+		text-align:right;
+	}
+	.reference .records {
+		height:300px;
+		overflow:scroll;
+	}
+
+	.reference table {
+		table-layout:fixed;
+		border-style:solid;
+		border-width:1px 0px 0px 1px;
+		border-color:#dddddd;
+	}
+		.reference table tr {
+			background-color:#ffffff;
+		}
+		.reference table tr.over {
+			background-color:#efefef;
+			cursor:pointer;
+		}
+		.reference table th {
+			color:#ffffff;
+			text-align:left;
+			padding:3px;
+			border-style:solid;
+			border-width:0px 1px 1px 0px;
+			border-color:#dddddd;
+			background-color:#1978B3;
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#1978B3', endColorstr='#125298');
+			background:
+						-moz-linear-gradient(
+							top,
+							#1978B3 0%,
+							#125298 100%);
+			background:
+						-webkit-gradient(
+							linear,
+							center top, center bottom,
+							from(#1978B3),
+							to(#125298));
+		}
+		.reference table td {
+			padding:3px;
+			border-style:solid;
+			border-width:0px 1px 1px 0px;
+			border-color:#dddddd;
+		}
